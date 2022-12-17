@@ -1,0 +1,43 @@
+.col-left {
+  height: 100vh;
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.img-fluid {
+  height: inherit;
+  object-fit: cover;
+}
+
+.col-right{
+  background-color: #C68B59;
+  height: 100vh;
+  padding-left: 0;
+  padding-right: 0;
+}
+
+form{
+  height: 100vh;
+  max-width: none;
+  padding: 50% 7.5%;
+  text-align: center;
+}
+
+form .form-group {
+  line-height: 200%;
+  text-align: left;
+}
+
+form .font-weight-bolder {
+  color: #fff;
+}
+
+form .btn {
+  width: 35%;
+}
+
+@media query (max-width: 560px) {
+  .col-left .col-right {
+    height: 50vh;
+  }
+}
